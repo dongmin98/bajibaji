@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baji.dom.mapper.EportalResourceMapper">
+
+    <resultMap id="BaseResultMap" type="com.baji.dom.entity.EportalResource">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
+            <result property="resourceName" column="resource_name" jdbcType="VARCHAR"/>
+            <result property="resourceIcon" column="resource_icon" jdbcType="VARCHAR"/>
+            <result property="resourcePath" column="resource_path" jdbcType="VARCHAR"/>
+            <result property="createdDate" column="created_date" jdbcType="TIMESTAMP"/>
+            <result property="createdUser" column="created_user" jdbcType="VARCHAR"/>
+            <result property="modifiedDate" column="modified_date" jdbcType="TIMESTAMP"/>
+            <result property="modifiedUser" column="modified_user" jdbcType="VARCHAR"/>
+            <result property="isDelete" column="is_delete" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,parent_id,resource_name,
+        resource_icon,resource_path,created_date,
+        created_user,modified_date,modified_user,
+        is_delete
+    </sql>
+</mapper>

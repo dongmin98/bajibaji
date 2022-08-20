@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baji.dom.mapper.SysAgentMapper">
+
+    <resultMap id="BaseResultMap" type="com.baji.dom.entity.SysAgent">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="agentCode" column="agent_code" jdbcType="VARCHAR"/>
+            <result property="agentName" column="agent_name" jdbcType="VARCHAR"/>
+            <result property="manageCode" column="manage_code" jdbcType="VARCHAR"/>
+            <result property="manageName" column="manage_name" jdbcType="VARCHAR"/>
+            <result property="mobile" column="mobile" jdbcType="VARCHAR"/>
+            <result property="birthday" column="birthday" jdbcType="TIMESTAMP"/>
+            <result property="agentType" column="agent_type" jdbcType="INTEGER"/>
+            <result property="agentStatus" column="agent_status" jdbcType="INTEGER"/>
+            <result property="createdDate" column="created_date" jdbcType="TIMESTAMP"/>
+            <result property="createdUser" column="created_user" jdbcType="VARCHAR"/>
+            <result property="modifiedDate" column="modified_date" jdbcType="TIMESTAMP"/>
+            <result property="modifiedUser" column="modified_user" jdbcType="VARCHAR"/>
+            <result property="isDelete" column="is_delete" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,agent_code,agent_name,
+        manage_code,manage_name,mobile,
+        birthday,agent_type,agent_status,
+        created_date,created_user,modified_date,
+        modified_user,is_delete
+    </sql>
+</mapper>
