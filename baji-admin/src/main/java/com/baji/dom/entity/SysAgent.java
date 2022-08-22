@@ -49,7 +49,7 @@ public class SysAgent implements Serializable {
     /**
      * 生日
      */
-    private String birthday;
+    private Date birthday;
 
     /**
      * 业务员类型：

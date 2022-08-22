@@ -10,11 +10,11 @@ import lombok.Data;
 
 /**
  * 后管-角色表
- * @TableName eporral_role
+ * @TableName eportal_role
  */
-@TableName(value ="eporral_role")
+@TableName(value ="eportal_role")
 @Data
-public class EporralRole implements Serializable {
+public class EportalRole implements Serializable {
     /**
      * 主键
      */
@@ -70,7 +70,7 @@ public class EporralRole implements Serializable {
         if (getClass() != that.getClass()) {
             return false;
         }
-        EporralRole other = (EporralRole) that;
+        EportalRole other = (EportalRole) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
             && (this.getRoleCode() == null ? other.getRoleCode() == null : this.getRoleCode().equals(other.getRoleCode()))
             && (this.getRoleName() == null ? other.getRoleName() == null : this.getRoleName().equals(other.getRoleName()))
