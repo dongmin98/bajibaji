@@ -5,7 +5,6 @@ import com.baji.dom.common.Result;
 import com.baji.dom.entity.SysAgent;
 import com.baji.dom.service.UploadExcelService;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
