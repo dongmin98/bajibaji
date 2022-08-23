@@ -11,5 +11,12 @@
 
     <artifactId>baji-user</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <!--引用公共类-->
+            <groupId>com.baji.dom</groupId>
+            <artifactId>baji-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
