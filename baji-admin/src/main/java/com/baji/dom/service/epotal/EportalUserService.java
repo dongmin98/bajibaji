@@ -1,4 +1,4 @@
-package com.baji.dom.service;
+package com.baji.dom.service.epotal;
 
 import com.baji.dom.entity.EportalUser;
 import com.baomidou.mybatisplus.extension.service.IService;

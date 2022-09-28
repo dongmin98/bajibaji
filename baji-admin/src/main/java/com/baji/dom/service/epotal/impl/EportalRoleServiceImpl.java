@@ -1,8 +1,8 @@
-package com.baji.dom.service.impl;
+package com.baji.dom.service.epotal.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.baji.dom.entity.EportalRole;
-import com.baji.dom.service.EportalRoleService;
+import com.baji.dom.service.epotal.EportalRoleService;
 import com.baji.dom.mapper.EportalRoleMapper;
 import org.springframework.stereotype.Service;
 

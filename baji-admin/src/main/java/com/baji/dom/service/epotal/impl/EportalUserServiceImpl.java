@@ -1,8 +1,8 @@
-package com.baji.dom.service.impl;
+package com.baji.dom.service.epotal.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.baji.dom.entity.EportalUser;
-import com.baji.dom.service.EportalUserService;
+import com.baji.dom.service.epotal.EportalUserService;
 import com.baji.dom.mapper.EportalUserMapper;
 import org.springframework.stereotype.Service;
 

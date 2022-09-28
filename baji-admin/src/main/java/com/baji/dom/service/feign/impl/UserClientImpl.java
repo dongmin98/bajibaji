@@ -1,8 +1,7 @@
-package com.baji.dom.service.impl;
+package com.baji.dom.service.feign.impl;
 
-import com.baji.dom.common.Result;
 import com.baji.dom.common.ResultModel;
-import com.baji.dom.service.UserClient;
+import com.baji.dom.service.feign.UserClient;
 import org.springframework.stereotype.Component;
 
 /**

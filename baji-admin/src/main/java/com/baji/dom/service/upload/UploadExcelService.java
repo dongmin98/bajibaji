@@ -1,4 +1,4 @@
-package com.baji.dom.service;
+package com.baji.dom.service.upload;
 
 import com.baji.dom.entity.SysAgent;
 import org.springframework.web.multipart.MultipartRequest;

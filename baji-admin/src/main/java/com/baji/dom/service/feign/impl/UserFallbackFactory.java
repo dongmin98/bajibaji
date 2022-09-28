@@ -1,7 +1,7 @@
-package com.baji.dom.service.impl;
+package com.baji.dom.service.feign.impl;
 
 import com.baji.dom.common.ResultModel;
-import com.baji.dom.service.UserClient;
+import com.baji.dom.service.feign.UserClient;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 

@@ -1,0 +1,25 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+##          路径中包含/baji-admin的会进入到bajiAdmin中
+#        - id: bajiAdmin
+#          uri: lb://bajiAdmin
+#          predicates:
+#          - Path=/baji-admin/**
+##          路径中包含/baji-admin的会进入到bajiAdmin中
+#        - id: bajiUser
+#          uri: lb://bajiUser
+#          predicates:
+#          - Path=/baji-user/**
+
+#        - id: bajiAdmin
+#          uri: lb://bajiAdmin
+#          predicates:
+#          - Path=/baji-admin/**
+##          - Host=www.bajibaji.com
+#        - id: bajiUser
+#          uri: lb://bajiUser
+#          predicates:
+#          - Path=/baji-user/**
+##          - Host=www.bajibaji.com
