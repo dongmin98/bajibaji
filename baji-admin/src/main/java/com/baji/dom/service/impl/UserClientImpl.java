@@ -2,7 +2,6 @@ package com.baji.dom.service.impl;
 
 import com.baji.dom.common.Result;
 import com.baji.dom.common.ResultModel;
-import com.baji.dom.entity.EportalUser;
 import com.baji.dom.service.UserClient;
 import org.springframework.stereotype.Component;
 

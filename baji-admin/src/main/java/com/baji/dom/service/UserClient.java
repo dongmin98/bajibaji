@@ -2,8 +2,8 @@ package com.baji.dom.service;
 
 import com.baji.dom.common.ResultModel;
 import com.baji.dom.service.impl.UserClientImpl;
-import com.baji.dom.service.impl.UserFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 /**
@@ -21,7 +21,7 @@ public interface UserClient {
      *
      * @return {@code Result<EportalUser>}
      */
-    @PostMapping("/user/info/queryUser")
+    @GetMapping("/user/info/queryUser")
     public ResultModel queryUser();
 
 }
